@@ -1,12 +1,12 @@
-.homepage {
-  background: url("../../../assets/images/fish-removebg-preview.png") no-repeat
-    center center fixed !important;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 100vh;
-}
+// .homepage {
+//   background: url("../../../assets/images/fish-removebg-preview.png") no-repeat
+//     center center fixed !important;
+//   -webkit-background-size: cover;
+//   -moz-background-size: cover;
+//   -o-background-size: cover;
+//   background-size: cover;
+//   height: 100vh;
+// }
 
 
 .social-media-btns a{
@@ -23,6 +23,22 @@
   padding: 10px 25px;
 }
 
-.home-text{
-  margin: 0 10px 130px 10px;
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
+.content {
+  //background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 50%;
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
 }
