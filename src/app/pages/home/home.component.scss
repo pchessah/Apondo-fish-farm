@@ -23,21 +23,7 @@
   padding: 10px 25px;
 }
 
-#myVideo {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%; 
-  min-height: 100%;
-  background: rgba(0, 0, 0, 0.5);
-}
-
-#myVideo > source{
-  background: rgba(0, 0, 0, 0.5) !important;
-}
-
 .content {
-  //background: rgba(0, 0, 0, 0.5);
   color: #f1f1f1;
   width: 50%;
   padding: 20px;
@@ -46,4 +32,6 @@
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
+  text-align: center;
+  font-weight: 500;
 }

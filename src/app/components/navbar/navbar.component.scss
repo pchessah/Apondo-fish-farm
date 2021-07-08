@@ -10,3 +10,23 @@ nav{
     background: transparent!important;
 }
 
+.nav-link , i{
+    color: white !important;
+}
+
+@media screen and (max-width: 990px) {
+    nav {
+        background: rgba(0, 0, 0, 0.653) !important;
+    }
+
+    a{
+        text-align: center;
+        font-weight: 600;
+    }
+
+    .nav-item{
+        border-bottom: 1px solid
+    }
+  }
+
+

@@ -5,8 +5,8 @@
       <button
         class="navbar-toggler"
         type="button"
-        (click)="rightAligned.toggle()"
-        aria-controls="navbarRightAlignExample"
+        (click)="centered.toggle()"
+        aria-controls="navbarCenteredExample"
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
@@ -15,14 +15,14 @@
   
       <!-- Collapsible wrapper -->
       <div
-        class="collapse navbar-collapse"
-        id="navbarRightAlignExample"
+        class="collapse navbar-collapse justify-content-center"
+        id="navbarCenteredExample"
         mdbCollapse
-        #rightAligned="mdbCollapse"
+        #centered="mdbCollapse"
       >
      
         <!-- Left links -->
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <ul class="navbar-nav mb-2 mb-lg-0">
             <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="/">Home</a>
               </li>
