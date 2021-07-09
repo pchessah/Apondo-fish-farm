@@ -1,1 +1,45 @@
-<p>products-and-services works!</p>
+<div class="content">
+    <div>
+        <h4>Products and Services</h4>
+        <mat-accordion>
+
+            <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+                <mat-expansion-panel-header>
+                    <mat-panel-title>
+                        <h5>Production of tilapia (Oreochromis niloticus) and catfish (Clarias gariepinus) fingerlings.
+                        </h5>
+                    </mat-panel-title>
+                </mat-expansion-panel-header>
+                <p>
+                    <li>AFF produces fingerlings of Nile tilapia (Oreochromis niloticus) and African catfish (Clarias
+                        gariepinus). The former is mainly supplied to pond farmers and fish cage systems.
+                    </li>
+                </p>
+            </mat-expansion-panel>
+
+            <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+                <mat-expansion-panel-header>
+                    <mat-panel-title>
+                        <h5>Aquaria and Pond Systems </h5>
+                    </mat-panel-title>
+                </mat-expansion-panel-header>
+                <p>
+                    <li>We construct glass aquaria of different sizes meant for homes, educational institutions, hotels
+                        and hospitals. We put emphasis on local fish species especially Haplochromines (fulu) and
+                        Synodontis (okoko) among others.
+                    </li>
+                    <li>
+                        AFF is also involved in construction of earthen fish ponds and other systems. We help local fish
+                        farmers by stocking fingerlings and harvesting table-sized fish.
+                    </li>
+                    <li>
+                        We also offer consultancy in fisheries and aquaculture including pond construction, stocking,
+                        harvesting etc.
+                    </li>
+                </p>
+            </mat-expansion-panel>
+        </mat-accordion>
+
+
+    </div>
+</div>

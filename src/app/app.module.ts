@@ -8,6 +8,8 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 
+import {MatExpansionModule} from '@angular/material/expansion';
+
 
 
 import { MdbCarouselModule } from 'mdb-angular-ui-kit/carousel';
@@ -25,6 +27,8 @@ import { MdbTabsModule } from 'mdb-angular-ui-kit/tabs';
 import { MdbTooltipModule } from 'mdb-angular-ui-kit/tooltip';
 import { MdbValidationModule } from 'mdb-angular-ui-kit/validation';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+
 import { AboutUsComponent } from './pages/about-us/about-us.component';
 import { ProductsAndServicesComponent } from './pages/products-and-services/products-and-services.component';
 import { SocialImpactComponent } from './pages/social-impact/social-impact.component';
@@ -64,6 +68,7 @@ import { FooterComponent } from './components/footer/footer.component';
     MdbTabsModule,
     MdbTooltipModule,
     MdbValidationModule,
+    MatExpansionModule,
     BrowserAnimationsModule
   ],
   providers: [],
