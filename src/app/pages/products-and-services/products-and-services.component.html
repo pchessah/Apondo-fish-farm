@@ -4,26 +4,26 @@
         <mat-accordion>
 
             <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
-                <mat-expansion-panel-header>
+                <mat-expansion-panel-header  class="panel-header">
                     <mat-panel-title>
                         <h5>Production of tilapia (Oreochromis niloticus) and catfish (Clarias gariepinus) fingerlings.
                         </h5>
                     </mat-panel-title>
                 </mat-expansion-panel-header>
-                <p>
+                <ul>
                     <li>AFF produces fingerlings of Nile tilapia (Oreochromis niloticus) and African catfish (Clarias
                         gariepinus). The former is mainly supplied to pond farmers and fish cage systems.
                     </li>
-                </p>
+                </ul>
             </mat-expansion-panel>
 
             <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
-                <mat-expansion-panel-header>
+                <mat-expansion-panel-header  class="panel-header">
                     <mat-panel-title>
                         <h5>Aquaria and Pond Systems </h5>
                     </mat-panel-title>
                 </mat-expansion-panel-header>
-                <p>
+                <ul>
                     <li>We construct glass aquaria of different sizes meant for homes, educational institutions, hotels
                         and hospitals. We put emphasis on local fish species especially Haplochromines (fulu) and
                         Synodontis (okoko) among others.
@@ -36,8 +36,36 @@
                         We also offer consultancy in fisheries and aquaculture including pond construction, stocking,
                         harvesting etc.
                     </li>
-                </p>
+                </ul>
             </mat-expansion-panel>
+
+            <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+                <mat-expansion-panel-header  class="panel-header">
+                    <mat-panel-title>
+                        <h5>Domestication of native threatened fish species </h5>
+                    </mat-panel-title>
+                </mat-expansion-panel-header>
+                <ul>
+                    <li>Attempts to conserve rare native fish species are carried out by domestication of the fishes in
+                        ponds and aquaria. A number of these species are already reproducing in tanks and ponds.
+                    </li>
+                </ul>
+            </mat-expansion-panel>
+
+            <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+                <mat-expansion-panel-header  class="panel-header">
+                    <mat-panel-title>
+                        <h5>Sale of Male and female brooders of both tilapia and catfish.
+                        </h5>
+                    </mat-panel-title>
+                </mat-expansion-panel-header>
+                <ul>
+                    <li>AFF supplies (separate) monosex broodstock fish to hatcheries.
+                    </li>
+                </ul>
+            </mat-expansion-panel>
+
+
         </mat-accordion>
 
 
