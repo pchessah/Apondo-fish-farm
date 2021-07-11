@@ -1,19 +1,11 @@
-.content > div {
-    color: #ffffff;
-
-}
-
-.content{
-    background: rgba(0, 0, 0, 0.5) !important;
-    line-height: 2.2;
-    letter-spacing: 2px;
-}
-
-h4{
-    margin-bottom: 20px;
-    text-decoration: underline;
+li,p{
+    text-align: justify;
 }
 
 li{
-    text-align: justify;
+    margin: 0 0 15px 0;
+}
+
+.content {
+    line-height: 1.8 !important;
 }

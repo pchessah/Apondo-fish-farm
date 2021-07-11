@@ -2,16 +2,7 @@
     margin-left: 8px;
   }
 
-  .content > div {
-    color: #ffffff;
-    font-weight: 500;
-}
 
-.content{
-    background: rgba(0, 0, 0, 0.3) !important;
-    line-height: 2.2;
-    letter-spacing: 2px;
-}
 
 mat-expansion-panel{
     border-bottom: 1px solid ;
@@ -23,11 +14,12 @@ mat-expansion-panel{
 li{ 
     text-align: justify;
     color: #ffd9d9;
+    line-height: 1.8 !important;
+    margin: 0 0 15px 0;
 }
 
 h4{
     margin-bottom: 20px;
-    //text-decoration: underline;
 }
 
 h5{
