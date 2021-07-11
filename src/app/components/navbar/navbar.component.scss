@@ -12,6 +12,11 @@ nav{
 
 .nav-link , i{
     color: white !important;
+    font-size: larger;
+}
+.nav-link:hover{
+    color: rgb(0, 0, 0) !important;
+    font-weight: 600;
 }
 
 @media screen and (max-width: 990px) {
