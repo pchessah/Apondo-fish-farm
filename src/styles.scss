@@ -1,37 +1,62 @@
 /* You can add global styles to this file, and also import other style files */
-@import '~@fortawesome/fontawesome-free/scss/fontawesome.scss';
-@import '~@fortawesome/fontawesome-free/scss/solid.scss';
-@import '~@fortawesome/fontawesome-free/scss/regular.scss';
-@import '~@fortawesome/fontawesome-free/scss/brands.scss';
- 
-@import '~mdb-angular-ui-kit/assets/scss/mdb.scss';
+@import "~@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "~@fortawesome/fontawesome-free/scss/solid.scss";
+@import "~@fortawesome/fontawesome-free/scss/regular.scss";
+@import "~@fortawesome/fontawesome-free/scss/brands.scss";
 
+@import "~mdb-angular-ui-kit/assets/scss/mdb.scss";
 
 .content {
-    width: 80%;
-    padding: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: #fff;
-    background: rgba(0, 0, 0, 0.5) !important;
-    line-height: 2.2;
-    letter-spacing: 2px;
+  width: 80%;
+  padding: 8px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.5) !important;
+  line-height: 2.2;
+  letter-spacing: 1.5px;
+}
+
+.content-body {
+  background-color: rgb(237, 254, 255);
+  padding: 16px 26px 16px 16px;
+  color: rgb(101, 101, 101);
+  border-radius: 4px;
+  font-weight: 450;
+  font-size: 13.28px;
+  width: 100%;
 }
 
 .content > div {
-    color: #ffffff;
+  color: #ffffff;
+}
+
+h4 {
+  margin-bottom: 20px;
+}
+
+i {
+  font-size: 22px !important;
+}
+
+@media screen and (max-width: 990px){
+    .content{
+        top: 60%;
+    }
 
 }
 
-h4{
-    margin-bottom: 20px;
+
+
+html,
+body {
+  height: 100%;
 }
- i{
-     font-size: 22px !important;
- }
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}

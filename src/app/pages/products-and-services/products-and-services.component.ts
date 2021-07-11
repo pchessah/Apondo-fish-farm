@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./products-and-services.component.scss'],
   styles: [`
   ::ng-deep .panel-header > .mat-expansion-indicator:after {
-    color: white;
+    color: rgb(101, 101, 101);
   }
 `],
 })

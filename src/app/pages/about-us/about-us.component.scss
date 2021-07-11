@@ -1,3 +1,10 @@
-p{
+li{
     text-align: justify;
+    line-height: 1.8 !important;
+    letter-spacing: 0.1em;
+}
+
+
+.content-body > ul{
+    list-style-position: outside;
 }

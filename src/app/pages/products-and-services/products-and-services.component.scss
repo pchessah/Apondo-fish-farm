@@ -6,17 +6,20 @@
 
 mat-expansion-panel{
     border: 1px solid transparent;
-    padding: 7px 10px;
-    background: rgba(0, 0, 0, 0.5) !important;
-    color: white;
-    margin-bottom: 5px;
+    background-color: rgb(237, 254, 255) !important;
+    margin-bottom: 7.5px;
     border-radius: 5px;
     width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-li{ 
+mat-expansion-panel-header{
+    padding: 16px;
+}
+ li{ 
     text-align: justify;
-    color: #ffd9d9;
+    color: rgb(101, 101, 101);
     line-height: 1.8 !important;
     margin: 0 0 15px 0;
 }
@@ -27,11 +30,23 @@ h4{
 
 h5{
     text-align: justify;
-    color: #fff;
+    color: rgb(101, 101, 101);
     text-transform:capitalize;
+    font-weight: 450;
 }
 
 ul{
     list-style-position: outside;
+}
+
+.content{
+    padding: 16px;
+}
+
+@media screen and (max-width: 990px){
+    .content{
+        top: 40% !important;
+    }
+
 }
 
