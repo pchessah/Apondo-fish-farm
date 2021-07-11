@@ -16,7 +16,7 @@ nav{
 
 @media screen and (max-width: 990px) {
     nav {
-        background: rgba(0, 0, 0, 0.653) !important;
+        background: rgba(0, 0, 0, 0.5) !important;
     }
 
     a{
@@ -26,6 +26,10 @@ nav{
 
     .nav-item{
         border-bottom: 1px solid
+    }
+
+    .navbar-toggler{
+        margin-left: 90%;
     }
   }
 

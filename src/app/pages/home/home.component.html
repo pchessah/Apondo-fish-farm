@@ -1,8 +1,9 @@
 <div class="content card">
     <div class="card-body" fxLayout="column" fxLayoutAlign="center center">
         <h1>Apondo Fish Farms</h1>
-        <p>Fish farming at its best</p>
+        <p>Fish farming at its best. Apondo fish farms concentrate on the modern solutions for aquaculture.</p>
         <button type="button" class="btn btn-info btn-rounded learn-more-btn">Learn More</button>
+
         <div class="social-media-btns">
             <!-- Facebook -->
             <a style="color: #3b5998;" href="#!" role="button"><i class="fab fa-facebook-f fa-lg"></i></a>
@@ -19,7 +20,35 @@
             <!-- Instagram -->
             <a style="color: #ac2bac;" href="#!" role="button"><i class="fab fa-instagram fa-lg"></i></a>
         </div>
-
     </div>
+
+    <!-- <carousel [images]="images">
+    </carousel> -->
+
+    <carousel [autoplay]="true" [cellsToShow]="3" [loop]="true" [autoplayInterval]="2500">
+        <div class="carousel-cell">
+            <img src="https://amayei.nyc3.digitaloceanspaces.com/2019/05/Fish-farm-hero.jpg">
+        </div>
+
+        <div class="carousel-cell">
+            <img src="https://amayei.nyc3.digitaloceanspaces.com/2019/05/Fish-farm-hero.jpg">
+        </div>
+
+        <div class="carousel-cell">
+            <img src="https://amayei.nyc3.digitaloceanspaces.com/2019/05/Fish-farm-hero.jpg">
+        </div>
+
+        <div class="carousel-cell">
+            <img src="https://amayei.nyc3.digitaloceanspaces.com/2019/05/Fish-farm-hero.jpg">
+        </div>
+
+        <div class="carousel-cell">
+            <img src="https://amayei.nyc3.digitaloceanspaces.com/2019/05/Fish-farm-hero.jpg">
+        </div>
+
+        <div class="carousel-cell">
+            <img src="https://amayei.nyc3.digitaloceanspaces.com/2019/05/Fish-farm-hero.jpg">
+        </div>
+    </carousel>
 
 </div>

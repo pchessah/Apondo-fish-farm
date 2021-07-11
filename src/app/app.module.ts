@@ -9,6 +9,8 @@ import { HomeComponent } from './pages/home/home.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 
 import {MatExpansionModule} from '@angular/material/expansion';
+import {IvyCarouselModule} from 'angular-responsive-carousel';
+
 
 
 
@@ -36,6 +38,7 @@ import { BlogPostsComponent } from './pages/blog-posts/blog-posts.component';
 import { NewsComponent } from './pages/news/news.component';
 import { ContactUsComponent } from './pages/contact-us/contact-us.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
@@ -48,7 +51,8 @@ import { FooterComponent } from './components/footer/footer.component';
     BlogPostsComponent,
     NewsComponent,
     ContactUsComponent,
-    FooterComponent
+    FooterComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
@@ -65,6 +69,7 @@ import { FooterComponent } from './components/footer/footer.component';
     MdbRangeModule,
     MdbRippleModule,
     MdbScrollspyModule,
+    IvyCarouselModule,
     MdbTabsModule,
     MdbTooltipModule,
     MdbValidationModule,
