@@ -5,10 +5,13 @@
 
 
 mat-expansion-panel{
-    border-bottom: 1px solid ;
-    padding: 10px;
+    border: 1px solid transparent;
+    padding: 7px 10px;
     background: rgba(0, 0, 0, 0.5) !important;
     color: white;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    width: 100%;
 }
 
 li{ 
