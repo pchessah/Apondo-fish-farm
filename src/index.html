@@ -12,21 +12,19 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <style>
-#myVideo {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%; 
-    min-height: 100%;  
-  }
+    body {
+      min-height: 100vh;
+      height: 100vh;
+      background-size: cover !important;
+      width: auto;
+      background: url("./assets/images/lake.jpeg") no-repeat;
+      background-position: center center;
+    }
+
 
   </style>
 </head>
 <body class="mat-typography">
-  <video autoplay muted loop id="myVideo" poster="../assets/images/fish-bg.jpeg">
-    <source src="../assets/videos/fish.mp4" type="video/mp4">
-    Your browser does not support HTML5 video.
-  </video>
   <app-root></app-root>
 </body>
 </html>
