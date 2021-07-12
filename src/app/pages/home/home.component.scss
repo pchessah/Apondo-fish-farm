@@ -1,6 +1,16 @@
-.social-media-btns a{
-  padding: 5px;
-  margin: 5px;
+.social-media-btns > a {
+  margin: 5px !important;
+  font-size: 16px;
+  background-color: white;
+  padding: 8px;
+  border-radius: 5px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
 }
 
 .social-media-btns{
@@ -16,8 +26,20 @@
 p{
   padding: 10px;
   font-size: 16px;
+  color: white;
+
+}
+
+
+.card{
+  background-color: rgba(0, 0, 0, 0.256);
+  margin-top: 60px;
 }
 
 h1{
-  font-size: 36px;
+  text-align: center;
+  color: white;
+  font-weight: 450;
+  letter-spacing: 2px;
+  font-size: 28px;
 }
