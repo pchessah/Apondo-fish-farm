@@ -6,13 +6,13 @@ li{
     margin: 0 0 15px 0;
 }
 
-.content {
-    line-height: 1.8 !important;
+.card{
+    background-color: rgba(0, 0, 0, 0.256)
 }
 
-@media screen and (max-width: 990px){
-    .content{
-        top: 60% !important;
-    }
-
+h4{
+    text-align: center;
+    color: white;
+    font-weight: 450;
+    letter-spacing: 2px;
 }

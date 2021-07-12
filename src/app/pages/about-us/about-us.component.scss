@@ -1,6 +1,6 @@
 li{
     text-align: justify;
-    line-height: 2.2 !important;
+    line-height: 1.5 !important;
     font-size: 14px;
     
 }
@@ -8,4 +8,15 @@ li{
 
 .content-body > ul{
     list-style-position: outside;
+}
+
+.card{
+    background-color: rgba(0, 0, 0, 0.256)
+}
+
+h4{
+    text-align: center;
+    color: white;
+    font-weight: 450;
+    letter-spacing: 2px;
 }
