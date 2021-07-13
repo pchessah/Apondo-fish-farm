@@ -21,9 +21,22 @@
 
 input, textarea{
   border-radius: 4px;
-  border: none;
+  border: 0.1px solid rgb(222, 222, 222);
   background-color: rgb(213, 253, 255);
   padding: 5px;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: black;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: black;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: black;
 }
 
 .contact-details{
