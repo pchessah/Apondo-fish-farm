@@ -1,7 +1,6 @@
 .social-media-btns > a {
   margin: 5px !important;
   font-size: 16px;
-  background-color: white;
   padding: 8px;
   border-radius: 5px;
   width: 40px;
@@ -26,19 +25,20 @@
 p{
   padding: 10px;
   font-size: 16px;
-  color: white;
-
+  text-align: center;
 }
 
 
-.card{
-  background-color: rgba(0, 0, 0, 0.256);
+.content-card{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 60px;
+  width: 60%;
 }
 
 h1{
   text-align: center;
-  color: white;
   font-weight: 450;
   letter-spacing: 2px;
   font-size: 28px;

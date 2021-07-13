@@ -7,21 +7,21 @@
 }
 
 nav{
-    background: transparent!important;
+    background: white!important;
 }
 
 .nav-link , i{
-    color: white !important;
+    color: rgb(0, 0, 0) !important;
     font-size: larger;
 }
 .nav-link:hover{
-    color: rgb(0, 0, 0) !important;
+    color: #16B5EA!important;
     font-weight: 600;
 }
 
 @media screen and (max-width: 990px) {
     nav {
-        background: rgba(0, 0, 0, 0.5) !important;
+        background: rgba(0, 0, 0, 0.15) !important;
     }
 
     a{
