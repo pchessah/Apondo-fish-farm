@@ -17,9 +17,14 @@
   margin-bottom: 0 !important;
 }
 
-.learn-more-btn{
+.learn-more-btn,  .view-gallery-btn{
   margin: 5px;
   padding: 10px 25px;
+}
+
+.view-gallery-btn{
+  background-color: #FA9832;
+  color: #fff;
 }
 
 p{

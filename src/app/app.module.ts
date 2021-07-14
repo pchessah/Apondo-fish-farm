@@ -39,6 +39,7 @@ import { NewsComponent } from './pages/news/news.component';
 import { ContactUsComponent } from './pages/contact-us/contact-us.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
+import { GalleryComponent } from './pages/gallery/gallery.component';
 
 @NgModule({
   declarations: [
@@ -52,7 +53,8 @@ import { PageNotFoundComponent } from './components/page-not-found/page-not-foun
     NewsComponent,
     ContactUsComponent,
     FooterComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    GalleryComponent
   ],
   imports: [
     BrowserModule,

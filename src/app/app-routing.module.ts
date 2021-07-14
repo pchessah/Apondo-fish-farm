@@ -4,6 +4,7 @@ import { PageNotFoundComponent } from './components/page-not-found/page-not-foun
 import { AboutUsComponent } from './pages/about-us/about-us.component'
 import { BlogPostsComponent } from './pages/blog-posts/blog-posts.component'
 import { ContactUsComponent } from './pages/contact-us/contact-us.component'
+import { GalleryComponent } from './pages/gallery/gallery.component'
 import { HomeComponent } from './pages/home/home.component'
 import { NewsComponent } from './pages/news/news.component'
 import { ProductsAndServicesComponent } from './pages/products-and-services/products-and-services.component'
@@ -17,6 +18,7 @@ const routes: Routes = [
   { path: 'news-and-publications', component: NewsComponent },
   { path: 'blog-posts', component: BlogPostsComponent },
   { path: 'contact-us', component: ContactUsComponent },
+  { path: 'gallery', component: GalleryComponent },
   { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: '**', component: PageNotFoundComponent },
 ]
