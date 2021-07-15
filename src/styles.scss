@@ -5,6 +5,7 @@
 @import "~@fortawesome/fontawesome-free/scss/brands.scss";
 
 @import "~mdb-angular-ui-kit/assets/scss/mdb.scss";
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Antic+Didone&display=swap');
 
 .content-card{
   display: block;
@@ -51,6 +52,6 @@ body {
 }
 body {
   margin: 0;
-  font-family: Roboto, "Helvetica Neue", sans-serif;
+  font-family: 'Antic Didone';
 }
 
