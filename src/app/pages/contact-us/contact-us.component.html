@@ -2,36 +2,39 @@
     <div class="card-body">
         <h4> Reach us Today</h4>
         <div class="contact-details">
+            <p>Email: info@apondofishfarm.com</p>
             <p>Telephone: (+254)745711152</p>
             <p> P. O. Box 19243 – 40100, Kisumu </p>
         </div>
 
 
-        <form class="form contact-form" fxLayout="column wrap">
+        <form [formGroup]="contactForm" class="form contact-form" fxLayout="column wrap">
             <div class="names" fxLayout="row wrap" fxLayoutAlign="space-between center">
-                <input fxFlex="49.5" type="text" placeholder="First Name" />
-                <input fxFlex="49.5" type="text" placeholder="Last Name" />
+                <input formControlName="firstName" fxFlex="49.5" type="text" placeholder="First Name" required />
+                <input formControlName="secondName" fxFlex="49.5" type="text" placeholder="Last Name" required />
             </div>
 
-            <input class="contact-email" type="email" placeholder="Your Email" />
-            <textarea class="contact-msg" placeholder="Your Message"></textarea>
+            <input formControlName="email" class="contact-email" type="email" placeholder="Your Email" />
+            <textarea formControlName="message" class="contact-msg" placeholder="Your Message"></textarea>
 
-            <button type="submit" class="btn btn-primary">Send Message</button>
+            <button (click)="sendMessage()" type="submit" class="btn btn-primary"> Send Message </button>
         </form>
 
 
         <div class="social-media-btns" fxLayout="row wrap" fxLayoutAlign="center center">
             <!-- Facebook -->
-            <a style="color: #3b5998;"  href="https://www.facebook.com/Apondo-Fish-Farm-101042655484080?_rdc=1&_rdr!" role="button"><i class="fab fa-facebook-f fa-lg"></i></a>
+            <a style="color: #3b5998;" href="https://www.facebook.com/Apondo-Fish-Farm-101042655484080?_rdc=1&_rdr!"
+                role="button"><i class="fab fa-facebook-f fa-lg"></i></a>
 
             <!-- Twitter -->
             <a style="color: #55acee;" href="#!" role="button"><i class="fab fa-twitter fa-lg"></i></a>
 
             <!-- WhatsApp -->
-            <a style="color: #25D366;" href="#!" role="button"><i class="fab fa-whatsapp"></i></a>
+            <a style="color: #25D366;" href="https://api.whatsapp.com/send?phone=254729009711" role="button"><i class="fab fa-whatsapp"></i></a>
 
             <!-- Google -->
-            <a style="color: #dd4b39;" href="#!" role="button"><i class="fab fa-google fa-lg"></i></a>
+            <a href="mailto:info@apondofishfarm.com" style="color: #dd4b39;" role="button"><i
+                    class="fab fa-google fa-lg"></i></a>
 
             <!-- Instagram -->
             <a style="color: #ac2bac;" href="#!" role="button"><i class="fab fa-instagram fa-lg"></i></a>

@@ -11,6 +11,8 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import {MatExpansionModule} from '@angular/material/expansion';
 import {IvyCarouselModule} from 'angular-responsive-carousel';
 
+import {FormsModule,ReactiveFormsModule} from '@angular/forms';
+
 
 
 
@@ -40,6 +42,7 @@ import { ContactUsComponent } from './pages/contact-us/contact-us.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 import { GalleryComponent } from './pages/gallery/gallery.component';
+
 
 @NgModule({
   declarations: [
@@ -76,6 +79,8 @@ import { GalleryComponent } from './pages/gallery/gallery.component';
     MdbTooltipModule,
     MdbValidationModule,
     MatExpansionModule,
+    FormsModule,
+    ReactiveFormsModule,
     BrowserAnimationsModule
   ],
   providers: [],
